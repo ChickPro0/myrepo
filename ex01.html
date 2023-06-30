@@ -7,7 +7,48 @@
 </head>
 <body>
     
-    <h1>나의 첫번째 커밋</h1>
+    <h1>나의 첫번째 커밋!</h1>
+    <h1>두번째 커밋!</h1>
     
+    <!-- 
+        git에 cd 주소값을 입력
+        cd : 경로 바꾸기
+        cd + 바꾸고 싶은 경로
+        ls : 현재 접근 가능한 경로 표시
+
+        자동완성 : Tab
+        붙여넣기 : Shift + Insert
+
+        // 0. 경로 맞추기
+        // 1. 프로젝트 맨 처음 시작
+        git init : 현재 폴더를 로컬 레퍼지토리화 시키겠습니다. 
+        
+        // 2. 사용자 정보 등록
+        // 사용자 이름 등록
+        git config --global user.name 사용자 이름
+        // 사용자 이메일 등록
+        git config --global user.email 사용자 이메일
+
+
+        // 3. git-hub 레포지토리 등록하기
+        git remote add origin 원격 저장소 주소값
+        
+        // 4. 커밋 준비 (.은 현재 경로에 있던 코드들을 커밋 할 수있게 준비 시킨다는 내용)
+        git add . 
+        
+        // 5. 커밋 (로컬 레퍼지토리에 반영)
+        // commit : 수정된 코드를 내 로컬 레포지토리에 반영하는 작업
+        git commit -m "커밋 메세지"
+
+        // 6. push 진행 (원격 저장소로 커밋한 내용을 올림)
+        git push origin master
+
+        // 7. pull
+        git pull origin master
+        // 입력 정보 확인
+        git config --global --list
+        // 원격저장소 주소 확인
+        git remote -v
+    -->
 </body>
 </html>
